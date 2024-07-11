@@ -66,6 +66,6 @@ func checkDomainName(domain string) {
 		}
 	}
 
-	log.Printf("%v, %v, %v, %v, %v, %v\n", domain, hasMx, hasSPF, spfRecord, hasDmarc, dmarcRecord)
+	log.Printf("domain: %v, \n hasMx: %v, \nhasSPF: %v,\n spfRecord %v,\n hasDmarc: %v,\n dmarcRecord %v, \n", domain, hasMx, hasSPF, spfRecord, hasDmarc, dmarcRecord)
 
 }
